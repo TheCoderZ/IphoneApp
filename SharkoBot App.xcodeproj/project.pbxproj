@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0305BC00187A4AC9002C9437 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0305BBFF187A4AC9002C9437 /* MessageUI.framework */; };
+		03437B051879DB2D00A739BD /* iphone5-wallpaper-8023400842.png in Resources */ = {isa = PBXBuildFile; fileRef = 03437B041879DB2D00A739BD /* iphone5-wallpaper-8023400842.png */; };
 		039AFF4F1878D4F9009E1A1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039AFF4E1878D4F9009E1A1B /* Foundation.framework */; };
 		039AFF511878D4F9009E1A1B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039AFF501878D4F9009E1A1B /* CoreGraphics.framework */; };
 		039AFF531878D4F9009E1A1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039AFF521878D4F9009E1A1B /* UIKit.framework */; };
@@ -21,6 +23,9 @@
 		039AFF701878D4F9009E1A1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039AFF521878D4F9009E1A1B /* UIKit.framework */; };
 		039AFF781878D4F9009E1A1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 039AFF761878D4F9009E1A1B /* InfoPlist.strings */; };
 		039AFF7A1878D4F9009E1A1B /* SharkoBot_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 039AFF791878D4F9009E1A1B /* SharkoBot_AppTests.m */; };
+		03D2EE35187924DC0071547E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D2EE34187924DC0071547E /* CoreLocation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		03D2EE3718792CB90071547E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D2EE3618792CB90071547E /* MapKit.framework */; };
+		03D2EE3A18792D4F0071547E /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D2EE3918792D4F0071547E /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0305BBFF187A4AC9002C9437 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		03437B041879DB2D00A739BD /* iphone5-wallpaper-8023400842.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iphone5-wallpaper-8023400842.png"; path = "../../Pictures/iphone5-wallpaper-8023400842.png"; sourceTree = "<group>"; };
 		039AFF4B1878D4F9009E1A1B /* SharkoBot App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SharkoBot App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		039AFF4E1878D4F9009E1A1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		039AFF501878D4F9009E1A1B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +60,10 @@
 		039AFF751878D4F9009E1A1B /* SharkoBot AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SharkoBot AppTests-Info.plist"; sourceTree = "<group>"; };
 		039AFF771878D4F9009E1A1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		039AFF791878D4F9009E1A1B /* SharkoBot_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharkoBot_AppTests.m; sourceTree = "<group>"; };
+		03D2EE34187924DC0071547E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		03D2EE3618792CB90071547E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		03D2EE3818792D4F0071547E /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = ../MapViewController.h; sourceTree = "<group>"; };
+		03D2EE3918792D4F0071547E /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = ../MapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +71,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0305BC00187A4AC9002C9437 /* MessageUI.framework in Frameworks */,
+				03D2EE3718792CB90071547E /* MapKit.framework in Frameworks */,
+				03D2EE35187924DC0071547E /* CoreLocation.framework in Frameworks */,
 				039AFF511878D4F9009E1A1B /* CoreGraphics.framework in Frameworks */,
 				039AFF531878D4F9009E1A1B /* UIKit.framework in Frameworks */,
 				039AFF4F1878D4F9009E1A1B /* Foundation.framework in Frameworks */,
@@ -101,6 +115,9 @@
 		039AFF4D1878D4F9009E1A1B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0305BBFF187A4AC9002C9437 /* MessageUI.framework */,
+				03D2EE3618792CB90071547E /* MapKit.framework */,
+				03D2EE34187924DC0071547E /* CoreLocation.framework */,
 				039AFF4E1878D4F9009E1A1B /* Foundation.framework */,
 				039AFF501878D4F9009E1A1B /* CoreGraphics.framework */,
 				039AFF521878D4F9009E1A1B /* UIKit.framework */,
@@ -117,6 +134,9 @@
 				039AFF601878D4F9009E1A1B /* Main.storyboard */,
 				039AFF631878D4F9009E1A1B /* ViewController.h */,
 				039AFF641878D4F9009E1A1B /* ViewController.m */,
+				03D2EE3818792D4F0071547E /* MapViewController.h */,
+				03D2EE3918792D4F0071547E /* MapViewController.m */,
+				03437B041879DB2D00A739BD /* iphone5-wallpaper-8023400842.png */,
 				039AFF661878D4F9009E1A1B /* Images.xcassets */,
 				039AFF551878D4F9009E1A1B /* Supporting Files */,
 			);
@@ -228,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03437B051879DB2D00A739BD /* iphone5-wallpaper-8023400842.png in Resources */,
 				039AFF671878D4F9009E1A1B /* Images.xcassets in Resources */,
 				039AFF591878D4F9009E1A1B /* InfoPlist.strings in Resources */,
 				039AFF621878D4F9009E1A1B /* Main.storyboard in Resources */,
@@ -252,6 +273,7 @@
 				039AFF651878D4F9009E1A1B /* ViewController.m in Sources */,
 				039AFF5F1878D4F9009E1A1B /* AppDelegate.m in Sources */,
 				039AFF5B1878D4F9009E1A1B /* main.m in Sources */,
+				03D2EE3A18792D4F0071547E /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +482,7 @@
 				039AFF7F1878D4F9009E1A1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		039AFF801878D4F9009E1A1B /* Build configuration list for PBXNativeTarget "SharkoBot AppTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +491,7 @@
 				039AFF821878D4F9009E1A1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

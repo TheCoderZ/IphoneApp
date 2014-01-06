@@ -7,7 +7,24 @@
 //
 
 #import <UIKit/UIKit.h>
+//#import <CoreLocation/CoreLocation.h>
+#import <MapKit/MapKit.h>
+#import <MessageUI/MFMailComposeViewController.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <MFMailComposeViewControllerDelegate> {
+    IBOutlet UITextField *textf;
+    IBOutlet UILabel *temp;
+    // add GPS?
+   // IBOutlet CLLocationManager *locationManager;
+    //IBOutlet UILabel *latLabel;
+    //IBOutlet UILabel *longLabel;
+   
+}
+@property(nonatomic, retain) IBOutlet UILabel *temp;
+
+
+-(IBAction)safe:(id)sender;
+-(IBAction)danger:(id)sender;
+-(IBAction)returnKey:(id)sender;
 
 @end
